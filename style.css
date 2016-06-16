@@ -1,5 +1,8 @@
 /* #EF597B #FF7897 */
 
+/* Preload Images */
+div#preload { display: none; }
+
 /* TYPOGRAPHY */
 h1,
 h2,
@@ -168,7 +171,7 @@ textarea,
 }
 @media (min-width: 992px) {
     .nav-background-featured {
-        background-color: rgba(51,51,51,.2);
+        background-color: rgba(51,51,51,.5);
     }
 }
 .nav-background-main {
@@ -368,88 +371,13 @@ textarea,
 #featured-image {
     height: 100vh !important;
     width: auto !important;
-    background-image: url(/img/climbing-trees.jpg);
+    background-image: url(/img/featured.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-position: center;
 }
-
-
-/* FEATURED w/ Carousel */
-/*#featured-image {
-    height: 100vh !important;
-    width: auto !important;
-    background-image: url(img/rachael.jpg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position: center;
-}
-.featured-crop {
-    height: 100vh !important;
-    overflow: hidden !important;
-}
-#featured-image {
-    display: none !important;
-}
-#featured-carousel {
-    display: none !important;
-}
-@media (min-width: 768px) {
-    #featured-image {
-        display: block !important;
-    }
-    #featured-carousel {
-        display: none !important;
-    }
-}
-@media (min-width: 992px) {
-    #featured-image {
-        display: none !important;
-    }
-    #featured-carousel {
-        display: block !important;
-    }
-}*/
-
-/* FEATURED - Carousel Fade */
-/*.carousel.fade {
-  opacity: 1;
-}
-.carousel.fade .item {
-  transition: opacity ease-out .7s;
-  left: 0;
-  opacity: 0;
-  top: 0;
-  position: absolute;
-  width: 100%;
-  display: block;
-}
-.carousel.fade .item:first-child {
-  top: auto;
-  opacity: 0;
-  position: relative;
-}
-.carousel.fade .item.active {
-  opacity: 1;
-}
-.carousel-control {
-  opacity: 0;
-}
-.carousel-control.right,
-.carousel-control.left {
-  background-image: none;
-}
-#featured-carousel .item {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  width: 100%;
-  height: 100%;
-}*/
 
 /* HEADLINE */
 #headline {
@@ -511,7 +439,7 @@ textarea,
     height: auto;
     width: auto;
     padding: 0 !important;
-    background-image: url(img/rose-camera-16x9-optimized.jpg);
+    background-image: url(/img/rose-camera.jpg);
     background-size: cover;
     background-position: center;
 }
