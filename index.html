@@ -5,22 +5,44 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<title>Blissful Moments by Stephanie</title>
+<title>Blissful Moments Photography</title>
 <!-- STYLES -->
 <link rel="stylesheet" href="/bootstrap-3.3.6/css/bootstrap.min.css"><!-- Bootstrap CSS -->
 <link rel="stylesheet" href="/bootstrap-3.3.6/css/bootstrap-theme.min.css"><!-- Bootstrap Theme CSS -->
 <link rel="stylesheet" href="/font-awesome-4.5.0/css/font-awesome.min.css"><!-- Font Awesome -->
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,300italic,700"><!-- Google Fonts -->
-<link rel="stylesheet" href="style.min.css"><!-- Custom CSS -->
+<link rel="stylesheet" href="style.css"><!-- Custom CSS -->
 </head>
 <body>
+<!-- MODALS -->
+<!-- Fine Print -->
+<div class="modal fade" id="fine-print-modal" tabindex="-1" role="dialog" aria-labelledby="Fine Print">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title text-center" id="myModalLabel">The Fine Print</h4>
+            </div><!-- /.modal-content -->
+            <div class="modal-body">
+                <ul class="services-list">
+                    <li class="services-list-item text-center">All services include: (1) a consultation with Stephanie prior to your session, (2) your customized session, and (3) Stephanie's time to craft your beautifully edited photos.</li>
+                    <li class="services-list-item text-center">There is an additional cost for traveling more than twenty miles from Elgin, IL.</li>
+                    <li class="services-list-item text-center">A $20 nonrefundable deposit is required to reserve your date and time. The deposit is applied to the remaining balance of your session price.</li>
+                    <li class="services-list-item text-center">Payment in full is required on the day of your photo session.</li>
+                    <li class="services-list-item text-center">Ask me about milestone package details.</li>
+                    <li class="services-list-item text-center">Ask me about event and party packages.</li>
+                </ul><!-- /.services-list -->
+            </div><!-- /.modal-body -->
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
 <!-- HEADER -->
 <header>
     <!-- NAV -->
     <nav class="nav nav-background-featured" id="nav">
         <div class="container-extra-wide nav-wrapper">
                 <div class="nav-title pull-left">
-                    <a class="nav-brand nav-brand-featured"href="#featured"><span id="blissful-moments">Blissful Moments</span><span id="by-stephanie"> by Stephanie</span></a>
+                    <a class="nav-brand nav-brand-featured"href="#featured"><span id="blissful-moments">Blissful Moments</span><span id="by-stephanie"> Photography</span></a>
                 </div><!-- /.nav-title -->
                 <button type="button" class="nav-toggle pull-right" id="nav-button">
                     <span class="sr-only">Toggle navigation</span>
@@ -30,7 +52,7 @@
                     <ul class="nav-list">
                         <li class="nav-list-item"><a class="nav-link nav-link-featured" href="#about">About</a></li>
                         <li class="nav-list-item"><a class="nav-link nav-link-featured" href="#work">Portfolio</a></li>
-                        <li class="nav-list-item"><a class="nav-link nav-link-featured" href="#services">Investments</a></li>
+                        <li class="nav-list-item"><a class="nav-link nav-link-featured" href="#services">Investment</a></li>
                         <li class="nav-list-item"><a class="nav-link nav-link-featured" href="#studio">Studio</a></li>
                         <li class="nav-list-item"><a class="nav-link nav-link-featured" href="#contact">Contact</a></li>
                         <li class="nav-list-item"><a class="nav-link nav-link-featured" href="http://blissfulmomentsbystephanie.pixieset.com/">Clients</a></li>
@@ -58,7 +80,7 @@
         <div class="container-wide">
             <div class="row about-row">
                 <div class="col-md-6">
-                    <p>Thank you for your interest in Blissful Moments by Stephanie! I love capturing the little moments in life – the laughs, the smiles, the hugs – that we hold close but all too often pass us by. I believe it is these moments that tell the stories of our lives and those of the ones we love.  I would love to help you capture these moments and tell your story!<br><br>A registered nurse by day, a photographer at heart…I provide a comfortable atmosphere, allowing my clients to share those blissful moments with the ones they love. I enjoy working with newborns, children, families, couples, older adults, and pets, and I know how to provide each and every one the special care and attention they deserve. Schedule a custom photo session by contacting me today!</p>
+                    <p>Thank you for your interest in Blissful Moments Photography!  My name is Stephanie, and I love capturing the little moments in life – the laughs, the smiles, the hugs – that we hold close but all too often pass us by. I believe it is these moments that tell the stories of our lives and those of the ones we love.  I would love to help you capture these moments and tell your story!<br><br>A registered nurse by day, a photographer at heart…I provide a comfortable atmosphere, allowing my clients to share those blissful moments with the ones they love. I enjoy working with newborns, children, families, couples, older adults, and pets, and I know how to provide each and every one the special care and attention they deserve. Schedule a custom photo session by contacting me today!</p>
                 </div>
                 <div class="col-md-6" id="about-thumb">
                     <img class="img-responsive" src="/img/cannon-cropped.jpg" alt="">
@@ -312,104 +334,197 @@
 <section class="section" id="services">
     <article>
         <div class="section-head">
-            <h1 class="section-title text-center">Investments</h1>
+            <h1 class="section-title text-center">Investment</h1>
             <div class="section-underline"></div>
         </div><!-- /.section-head -->
         <div class="container-wide">
+            <!-- ROW 1 -->
             <div class="row">
-                <div class="col-md-6 service" id="the-little-moments">
-                    <div class="row">
-                        <div class="col-sm-5">
-                            <div class="services-price"><sup class="services-price-dollar">$</sup><span class="services-price-amount">80</span></div>
-                        </div><!-- /.col-sm-5 -->
-                        <div class="col-sm-7">
-                            <h2 class="services-package">The Little Moments</h2>
-                            <p class="services-tagline">Beautiful, effortless photos.</p>
-                            <ul class="services-list">
-                                <li class="services-list-item">Mini twenty-five minute session</li>
-                                <li class="services-list-item">Two children included</li>
-                                <li class="services-list-item">$10 extra per each additional person</li>
-                                <li class="services-list-item">Up to eight edited images with full print rights</li>
-                                <li class="services-list-item">Online access to digital images</li>
-                            </ul><!-- /.services-list -->
-                        </div><!-- /.col-sm-7 -->
-                    </div><!-- /.row -->
-                </div><!-- /.col-md-6 /.service -->
+                <!-- TRUE BLISS -->
                 <div class="col-md-6 service" id="true-bliss">
                     <div class="row">
                         <div class="col-sm-5">
-                            <div class="services-price"><sup class="services-price-dollar">$</sup><span class="services-price-amount">120</span></div>
+                            <div class="services-price"><sup class="services-price-dollar">$</sup><span class="services-price-amount">250</span></div>
                         </div><!-- /.col-sm-5 -->
                         <div class="col-sm-7">
                             <h2 class="services-package">True Bliss</h2>
-                            <p class="services-tagline">Perfect for all occasions.</p>
+                            <p class="services-tagline">Perfect for family or senior sessions</p>
                             <ul class="services-list">
                                 <li class="services-list-item">Full session up to one hour</li>
                                 <li class="services-list-item">Up to four people</li>
                                 <li class="services-list-item">$10 extra per each additional person</li>
-                                <li class="services-list-item">Up to twenty edited images with full print rights</li>
-                                <li class="services-list-item">Online access to digital images</li>
+                                <li class="services-list-item">Up to fifteen edited images with full print rights</li>
+                            </ul><!-- /.services-list -->
+                        </div><!-- /.col-sm-7 -->
+                    </div><!-- /.row -->
+                </div><!-- /.col-md-6 /.service -->
+                <!-- LITTLE MOMENTS -->
+                <div class="col-md-6 service" id="the-little-moments">
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <div class="services-price"><sup class="services-price-dollar">$</sup><span class="services-price-amount">100</span></div>
+                        </div><!-- /.col-sm-5 -->
+                        <div class="col-sm-7">
+                            <h2 class="services-package">The Little Moments</h2>
+                            <p class="services-tagline">Beautiful, effortless photos</p>
+                            <ul class="services-list">
+                                <li class="services-list-item">Fifteen minute styled session</li>
+                                <li class="services-list-item">Two children included</li>
+                                <li class="services-list-item">$10 extra per each additional person</li>
+                                <li class="services-list-item">Up to five edited images with full print rights</li>
+                                <li class="services-list-item"><em>Offered on select dates with themes chosen by Stephanie</em></li>
                             </ul><!-- /.services-list -->
                         </div><!-- /.col-sm-7 -->
                     </div><!-- /.row -->
                 </div><!-- /.col-md-6 /.service -->
             </div><!-- /.row -->
+            <!-- ROW 2 -->
             <div class="row">
-                <div class="col-md-6 service" id="special-days">
+                <!-- BEAUTIFUL NEWBORNS -->
+                <div class="col-md-6 service" id="beautiful-newborns">
                     <div class="row">
                         <div class="col-sm-5">
-                            <div class="services-price"><sup class="services-price-dollar">$</sup><span class="services-price-amount">150</span></div>
+                            <div class="services-price"><sup class="services-price-dollar">$</sup><span class="services-price-amount">350</span></div>
                         </div><!-- /.col-sm-5 -->
                         <div class="col-sm-7">
-                            <h2 class="services-package">Blissful Seniors</h2>
-                            <p class="services-tagline">A time to remember.</p>
+                            <h2 class="services-package">Blissful Newborns</h2>
+                            <p class="services-tagline">A time to cherish</p>
                             <ul class="services-list">
-                                <li class="services-list-item">Full session up to one and a half hours</li>
-                                <li class="services-list-item">Two locations included</li>
-                                <li class="services-list-item">Unlimited outfit changes within time frame</li>
+                                <li class="services-list-item">Full session up to three hours</li>
+                                <li class="services-list-item">Fifteen edited images</li>
+                                <li class="services-list-item"><em>Family pictures not included</em></li>
                             </ul><!-- /.services-list -->
                         </div><!-- /.col-sm-7 -->
                     </div><!-- /.row -->
                 </div><!-- /.col-md-6 /.service -->
-                <div class="col-md-6 service" id="beautiful-newborns">
+                <!-- BEAUTIFUL NEWBORNS PLUS FAMILY -->
+                <div class="col-md-6 service" id="beautiful-newborns-plus-family">
                     <div class="row">
                         <div class="col-sm-5">
-                            <div class="services-price"><sup class="services-price-dollar">$</sup><span class="services-price-amount">200</span></div>
+                            <div class="services-price"><sup class="services-price-dollar">$</sup><span class="services-price-amount">450</span></div>
                         </div><!-- /.col-sm-5 -->
                         <div class="col-sm-7">
-                            <h2 class="services-package">Beautiful Newborns</h2>
-                            <p class="services-tagline">A moment to cherish.</p>
+                            <h2 class="services-package">Beautiful Newborns Plus Family</h2>
+                            <p class="services-tagline">A time to cherish with the whole family</p>
                             <ul class="services-list">
-                                <li class="services-list-item">Full session up to two hours</li>
-                                <li class="services-list-item">Newborn and parents included</li>
-                                <li class="services-list-item">$10 extra per each additional person</li>
-                                <li class="services-list-item">Up to fifteen edited images with full print rights</li>
-                                <li class="services-list-item">Online access to digital images</li>
-                                <li class="services-list-item">Two 8x10 and two 5x7 prints included</li>
-                                <li class="services-list-item"><i>Ask me about in-hospital sessions!</i></li>
-                                <li class="services-list-item"><i>Discount applies if purchased with a True Bliss maternity session!</i></li>
+                                <li class="services-list-item">Full session up to three hours</li>
+                                <li class="services-list-item">Twenty edited images</li>
                             </ul><!-- /.services-list -->
                         </div><!-- /.col-sm-7 -->
                     </div><!-- /.row -->
                 </div><!-- /.col-md-6 /.service -->  
             </div><!-- /.row -->
+            <!-- ROW 3 -->
             <div class="row">
-                <div class="col-md-2"></div>
-                <div class="col-md-8 service"><hr></div>
-                <div class="col-md-2"></div>
+                <!-- BELLY BLISS MATERNITY -->
+                <div class="col-md-6 service" id="belly-bliss-maternity">
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <div class="services-price"><sup class="services-price-dollar">$</sup><span class="services-price-amount">275</span></div>
+                        </div><!-- /.col-sm-5 -->
+                        <div class="col-sm-7">
+                            <h2 class="services-package">Belly Bliss Maternity</h2>
+                            <p class="services-tagline">A moment to cherish with the whole family</p>
+                            <ul class="services-list">
+                                <li class="services-list-item">Fifteen photos</li>
+                                <li class="services-list-item">Includes use of any of our maternity dresses</li>
+                                <li class="services-list-item"><em>$250 if purchased with a Beautiful Newborns session</em></li>
+                            </ul><!-- /.services-list -->
+                        </div><!-- /.col-sm-7 -->
+                    </div><!-- /.row -->
+                </div><!-- /.col-md-6 /.service -->
+                <!-- LABOR AND DELIVERY -->
+                <div class="col-md-6 service" id="labor-delivery">
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <div class="services-price"><sup class="services-price-dollar">$</sup><span class="services-price-amount">395</span></div>
+                        </div><!-- /.col-sm-5 -->
+                        <div class="col-sm-7">
+                            <h2 class="services-package">Labor &amp; Delivery</h2>
+                            <p class="services-tagline">For your first moments together</p>
+                            <ul class="services-list">
+                                <li class="services-list-item">Twenty photos</li>
+                                <li class="services-list-item">An on-call photographer is made available if Stephanie is unavailable</li>
+                                <li class="services-list-item"><em>Package is based on availability</em></li>
+                            </ul><!-- /.services-list -->
+                        </div><!-- /.col-sm-7 -->
+                    </div><!-- /.row -->
+                </div><!-- /.col-md-6 /.service -->
             </div><!-- /.row -->
+            <!-- ROW 4 -->
+            <div class="row">
+                <!-- FRESH 48 and LIFESTYLE-->
+                <div class="col-md-6 service" id="fresh-48-lifestyle">
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <div class="services-price"><sup class="services-price-dollar">$</sup><span class="services-price-amount">295</span></div>
+                        </div><!-- /.col-sm-5 -->
+                        <div class="col-sm-7">
+                            <h2 class="services-package">Fresh 48 or Lifestyle</h2>
+                            <p class="services-tagline">Perfect for those first days or any special occasion</p>
+                            <ul class="services-list">
+                                <li class="services-list-item">Fifteen photos</li>
+                            </ul><!-- /.services-list -->
+                        </div><!-- /.col-sm-7 -->
+                    </div><!-- /.row -->
+                </div><!-- /.col-md-6 /.service -->
+                <!-- MILESTONES -->
+                <div class="col-md-6 service" id="milestones">
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <div class="services-price"><sup class="services-price-dollar">$</sup><span class="services-price-amount">220</span></div>
+                        </div><!-- /.col-sm-5 -->
+                        <div class="col-sm-7">
+                            <h2 class="services-package">3, 6 &amp 9 Month Milestones</h2>
+                            <p class="services-tagline">Follow your baby's journey</p>
+                            <ul class="services-list">
+                                <li class="services-list-item">Fifteen photos</li>
+                            </ul><!-- /.services-list -->
+                        </div><!-- /.col-sm-7 -->
+                    </div><!-- /.row -->
+                </div><!-- /.col-md-6 /.service -->
+            </div><!-- /.row -->
+            <!-- ROW 5 -->
+            <div class="row">
+                <!-- BIRTHDAY CAKE SMASH -->
+                <div class="col-md-6 service" id="birthday-cake-smash">
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <div class="services-price"><sup class="services-price-dollar">$</sup><span class="services-price-amount">275</span></div>
+                        </div><!-- /.col-sm-5 -->
+                        <div class="col-sm-7">
+                            <h2 class="services-package">Birthday Cake Smash</h2>
+                            <p class="services-tagline">Capture their first birthday</p>
+                            <ul class="services-list">
+                                <li class="services-list-item">Styled session with a customizable theme or colors</li>
+                                <li class="services-list-item">Fifteen photos</li>
+                                <li class="services-list-item">Option to include "clean up" or "bathtub" photos at the end of your session</li>
+                            </ul><!-- /.services-list -->
+                        </div><!-- /.col-sm-7 -->
+                    </div><!-- /.row -->
+                </div><!-- /.col-md-6 /.service -->
+                <!-- BLISSFUL BABY -->
+                <div class="col-md-6 service" id="blissful-baby">
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <div class="services-price"><sup class="services-price-dollar">$</sup><span class="services-price-amount">900</span></div>
+                        </div><!-- /.col-sm-5 -->
+                        <div class="col-sm-7">
+                            <h2 class="services-package">Beautiful Newborns</h2>
+                            <p class="services-tagline">Remember each and every moment</p>
+                            <ul class="services-list">
+                                <li class="services-list-item">Choose from four of the following sessions: Maternity, Fresh 48, Lifestyle, Newborn, Milestones, or Birthday Cake Smash</li>
+                                <li class="services-list-item"><em>Payment plans are available</em></li>
+                            </ul><!-- /.services-list -->
+                        </div><!-- /.col-sm-7 -->
+                    </div><!-- /.row -->
+                </div><!-- /.col-md-6 /.service -->  
+            </div><!-- /.row -->
+            <!-- FINE PRINT -->
             <div class="row">
                 <div class="col-md-3"></div><!-- /.col-md-3 -->
-                <div class="col-md-6 service">
-                    <h2 class="text-center" id="the-fine-print">The Fine Print</h2>
-                    <ul class="services-list">
-                        <li class="services-list-item text-center">All services include: (1) a consultation with Stephanie prior to your session, (2) your customized session, and (3) Stephanie's time to craft your beautifully edited photos.</li>
-                        <li class="services-list-item text-center">There is an additional cost for traveling more than twenty miles from Elgin, IL.</li>
-                        <li class="services-list-item text-center">A $20 nonrefundable deposit is required to reserve your date and time. The deposit is applied to the remaining balance of your session price.</li>
-                        <li class="services-list-item text-center">Payment in full is required on the day of your photo session.</li>
-                        <li class="services-list-item text-center">Ask me about milestone package details.</li>
-                        <li class="services-list-item text-center">Ask me about event and party packages.</li>
-                    </ul><!-- /.services-list -->
+                <div class="col-md-6 service text-center">
+                    <button type="button" class="button" id="fine-print-btn" data-toggle="modal" data-target="#fine-print-modal">The Fine Print</button>
                 </div><!-- /.col-md-6 /.service -->
                 <div class="col-md-3"></div><!-- /.col-md-3 -->
             </div><!-- /.row -->

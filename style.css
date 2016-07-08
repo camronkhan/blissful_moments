@@ -64,7 +64,7 @@ textarea,
     margin: 0 !important;
     border: 1px solid #EF597B !important;
     padding: 20px !important;
-    min-width: 150px !important;
+    
     background-color: #EF597B !important;
     color: #FFF !important;
 }
@@ -74,6 +74,13 @@ textarea,
     background-color: #FF7897 !important;
     outline: none !important;
     text-decoration: none !important;
+}
+.button-sm {
+    height: 60px !important;
+    min-width: 100px !important;
+}
+.button-lg {
+    min-width: 150px !important;
 }
 .centered {
     /* Parent must be set to 'position: relative' */
@@ -619,7 +626,7 @@ textarea,
 #the-fine-print {
     padding-bottom: 15px !important;
 }
-#services hr {
+#fine-print-btn {
     margin-top: 40px !important;
 }
 
@@ -807,4 +814,10 @@ textarea,
 #camron-khan:active{
     color: #FF7897;
     text-decoration: none;
+}
+
+/* MODALS */
+.modal {
+    top: 100px !important;
+    padding: 0 !important;
 }
