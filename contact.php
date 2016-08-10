@@ -8,7 +8,7 @@ if (isset($_POST['name']) && isset($_POST['email']) && isset($_POST['phone']) &&
     $message = filter_input(INPUT_POST, 'message', FILTER_SANITIZE_STRING);
  
     // Get data to be emailed
-    $to = "stephanie@blissfulmomentsbystephanie.com";
+    $to = "blissfulmomentsbystephanie@gmail.com";
     $subject = "Website Contact Form Submission";
     $body = "From: " . $name . "\n\nEmail: " . $email . "\n\nPhone: " . $phone . "\n\nMessage:\n\n" . $message;
             
